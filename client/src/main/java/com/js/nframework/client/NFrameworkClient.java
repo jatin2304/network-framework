@@ -1,6 +1,6 @@
-package com.krish.lalwani.nframework.client;
-import com.krish.lalwani.nframework.common.*;
-import com.krish.lalwani.nframework.common.exceptions.*;
+package com.js.nframework.client;
+import com.js.nframework.common.*;
+import com.js.nframework.common.exceptions.*;
 import java.io.*;
 import java.net.*;
 import java.nio.charset.*;

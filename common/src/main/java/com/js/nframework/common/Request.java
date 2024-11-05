@@ -1,4 +1,4 @@
-package com.krish.lalwani.nframework.common;
+package com.js.nframework.common;
 public class Request implements java.io.Serializable
 {
 private String servicePath; // represent a path to a method(/Designation/add)

@@ -2,9 +2,9 @@
 # To use this framework you have to design an class and apply path annotation on the class and its methods and register your class at server side by using nframeworkServer object
 # Example over hear
 # Create you required class using Path annotation and Register your class
-import com.krish.lalwani.nframework.server.*;
+import com.js.nframework.server.*;
 <br>
-import com.krish.lalwani.nframework.server.annotations.*;
+import com.js.nframework.server.annotations.*;
 <br>
 @Path("/banking")
 <br>
@@ -30,7 +30,7 @@ if(city.equals("INDORE"))
 <br>
 {
 <br>
-return "Chapan";
+return "Rajwada";
 <br>
 }
 <br>
@@ -68,13 +68,13 @@ java -classpath ..\Network-Framework\server\build\libs\nframework-server.jar;..\
  
 # For using this class at client side give the value of setup path annotation value applied on class and methods during designing of class
 
-import com.krish.lalwani.nframework.client.*;
+import com.js.nframework.client.*;
 <br>
 class BankUI
 <br>
 {
 <br>
-public static void main(String ...krish)
+public static void main(String ...a)
 <br>
 {
 <br>
@@ -84,7 +84,7 @@ try
 <br>
 NFrameworkClient client=new NFrameworkClient();
 <br>
-String branchName=(String)client.execute("/banking/branchName",krish[0]);
+String branchName=(String)client.execute("/banking/branchName",a[0]);
 <br>
 System.out.println(branchName);
 <br>

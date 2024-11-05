@@ -1,8 +1,8 @@
-package com.krish.lalwani.nframework.server;
+package com.js.nframework.server;
 import java.net.*;
 import java.util.*;
 import java.lang.reflect.*;
-import com.krish.lalwani.nframework.server.annotations.*;
+import com.js.nframework.server.annotations.*;
 public class NFrameworkServer
 {
 private ServerSocket serverSocket;
@@ -58,7 +58,7 @@ Socket socket;
 RequestProcessor requestProcessor;
 while(true)
 {
-System.out.println("Krish's server is ready to accept your request on port no : 5500");
+System.out.println("Server is ready to accept your request on port no : 5500");
 socket=serverSocket.accept();
 requestProcessor=new RequestProcessor(this,socket); //here this because details of registered classes is in this class
 }

@@ -1,4 +1,4 @@
-package com.krish.lalwani.nframework.server.annotations;
+package com.js.nframework.server.annotations;
 import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE,ElementType.METHOD})

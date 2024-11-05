@@ -1,4 +1,4 @@
-package com.krish.lalwani.nframework.common.exceptions;
+package com.js.nframework.common.exceptions;
 public class NetworkException extends Exception
 {
 public NetworkException()

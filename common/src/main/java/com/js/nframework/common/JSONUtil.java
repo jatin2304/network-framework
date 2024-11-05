@@ -1,4 +1,4 @@
-package com.krish.lalwani.nframework.common;
+package com.js.nframework.common;
 import com.google.gson.*;
 public class JSONUtil
 {

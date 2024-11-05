@@ -1,9 +1,9 @@
-package com.krish.lalwani.nframework.server;
+package com.js.nframework.server;
 import java.net.*;
 import java.lang.reflect.*;
 import java.nio.charset.*;
 import java.io.*;
-import com.krish.lalwani.nframework.common.*;
+import com.js.nframework.common.*;
 class RequestProcessor extends Thread
 {
 private NFrameworkServer server;
