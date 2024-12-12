@@ -1,7 +1,7 @@
 # Documentation to use this framework
 # To use this framework you have to design an class and apply path annotation on the class and its methods and register your class at server side by using nframeworkServer object
 # Example over hear
-# Create you required class using Path annotation and Register your class
+# Create your required class using Path annotation and Register your class
 import com.js.nframework.server.*;
 <br>
 import com.js.nframework.server.annotations.*;
