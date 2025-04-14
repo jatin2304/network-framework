@@ -46,7 +46,7 @@ throw new Exception("No branch in that city");
 <br>
 }
 <br>
-public static void main(String krish[])
+public static void main(String args[])
 <br>
 {
 <br>
